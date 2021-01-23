@@ -62,16 +62,28 @@ Once Azure Kubernetes Service is set up on your Azure Stack HCI cluster, it work
 
 ## Hands-on Labs
 
-* Configure K8s on Win 10 using Docker desktop and register it to Azure ARC
-* Deploy a sample App on AKS-HCI using GitOps integration
-* Policy definition and deployment to all instances
-
+* Configure K8s
+    * Configure AKS-HCI 
+    * Configure K8s on Win 10 using Docker desktop
+    * Configure GKS
+    * Configure EKS
+    * Configure AKS 
+    * Configure AKS Engine
+* Register K8s Cluster to Azure Arc Enabled Kubernetes
+* Deploy a sample App to registered Clusters using GitOps integration on Azure Arc
+* Apply **Azure Policy** to Arc Resource
+    * abc-01
+    * xyz-01
+* **Azure Monitor** usage
 ## Troubleshooting
 
 * **kubectl** usage for investigation
 * Log file(s) analysis
-* **Azure Monitor** usage
+    * Get-AKSHCILogs
 
+## [POC Guide](03-proof-of-concept-guide.md)
+
+## [Azure Stack HCI](02-aks-on-azure-stack-hci.md)
 ## Resources
 
 ### [Azure Stack HCI documentation](https://docs.microsoft.com/en-us/azure-stack/hci/)
